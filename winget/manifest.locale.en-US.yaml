@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+PackageIdentifier: batuhanbecel.TaskbarSpeedTest
+PackageVersion: {VERSION}
+PackageLocale: en-US
+Publisher: Batuhan Becel
+PublisherUrl: https://github.com/batuhanbecel
+PublisherSupportUrl: https://github.com/batuhanbecel/TaskbarSpeedTest/issues
+Author: Batuhan Becel
+PackageName: TaskbarSpeedTest
+PackageUrl: https://github.com/batuhanbecel/TaskbarSpeedTest
+License: MIT
+LicenseUrl: https://github.com/batuhanbecel/TaskbarSpeedTest/blob/main/LICENSE
+ShortDescription: Internet speed test in the Windows 11 taskbar, with download, upload and ping always in view.
+Description: |-
+  TaskbarSpeedTest measures download, upload, ping and jitter against Cloudflare's speed test network and keeps the
+  latest result right inside the Windows 11 taskbar, next to the clock. Click it for a Windows 11 style flyout with a
+  live gauge, the three measurements and the recent tests. Optional automatic tests every 1 to 24 hours.
+Moniker: taskbarspeedtest
+Tags:
+- speedtest
+- speed-test
+- internet
+- bandwidth
+- ping
+- cloudflare
+- taskbar
+ReleaseNotesUrl: https://github.com/batuhanbecel/TaskbarSpeedTest/releases/tag/v{VERSION}
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0

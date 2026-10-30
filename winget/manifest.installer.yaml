@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+PackageIdentifier: batuhanbecel.TaskbarSpeedTest
+PackageVersion: {VERSION}
+InstallerType: inno
+Scope: user
+UpgradeBehavior: install
+ProductCode: '{ED13B013-062E-4549-9298-881DD82E2EDD}_is1'
+ReleaseDate: {DATE}
+Installers:
+- Architecture: neutral
+  InstallerUrl: {URL}
+  InstallerSha256: {SHA256}
+ManifestType: installer
+ManifestVersion: 1.9.0
